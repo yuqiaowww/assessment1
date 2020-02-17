@@ -1,0 +1,46 @@
+h1 {text-transform: uppercase;
+text-align: center;}
+
+body {
+  background-image: url('../images/back-ground.jpeg');
+
+}
+#mystuff {
+  grid-template-columns: auto auto;
+  grid-column: 1 / auto;
+}
+
+img{
+  display: block;
+    width: 120px; 
+    margin-bottom: 15px; 
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ div{
+    padding: 30px; 
+    margin:5px; 
+ }
+
+ @media all and (min-width: 850px){
+
+   .container{
+     display: grid;
+     grid-template-columns: auto auto;
+   }
+
+
+
+ 
+ 
+ }  /*End the media query*/
+
+ @media only screen and (min-width: 1024px){
+  .container{ 
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 350px 350px 350px 350px 350px;
+  }
+
+ }
+ 
